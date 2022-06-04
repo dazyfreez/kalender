@@ -13,7 +13,13 @@ if y == "ja":
     z = int(input())    #pdf oder txt
     if z == 1:
         print("pdf")
-        
+        print("okay")
+        print("wollen sie den kalender als array oder in einer datenbak anzeigen?") #array oder datenbank
+        w = int(input())
+        if w == 1:
+            print("array")
+            print("okay")
+            
     elif z == 2:
         print("txt")
     else:
