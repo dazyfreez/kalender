@@ -22,6 +22,13 @@ if y == "ja":
             print("die kalender werden in einzelnen arrays gespeichert")
             print("es ist immer der jeweilige tag der name des arrays")
             montag = []
+            dienstag = []
+            mittwoch = []
+            donnerstag = []
+            freitag = []
+            samstag = []
+            sonntag = []
+            
     elif z == 2:
         print("txt")
     else:
