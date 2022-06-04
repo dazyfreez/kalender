@@ -1,3 +1,2 @@
 print("das ist ein kalender")
-print("geben sie die anzahl der tage ein für die sie planen möchten")   
-x = int(input())
+x = int(input("geben sie die anzahl der tage ein für die sie planen möchten"))
