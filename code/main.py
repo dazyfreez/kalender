@@ -41,6 +41,29 @@ if y == "ja":
                     b = int(input())
                     print("wie viele einträge sollen hinzugefügt werden?")
                     c = int(input())
+            print("wollen sie den kalender einsehen?")
+            print("ja oder nein")
+            d = input()
+            if d == "ja":
+                print("okay")
+                print("für welchen tag möchten sie den kalender anzeigen? 1-7")
+                e = int(input())
+                if e == 1:
+                    print(montag)
+                elif e == 2:
+                    print(dienstag)
+                elif e == 3:
+                    print(mittwoch)
+                elif e == 4:
+                    print(donnerstag)
+                elif e == 5:
+                    print(freitag)
+                elif e == 6:
+                    print(samstag)
+                elif e == 7:
+                    print(sonntag)
+                else:
+                    print("dieser tag ist nicht vorhanden")
     elif z == 2:
         print("txt")
     else:
