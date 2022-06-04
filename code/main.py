@@ -28,7 +28,19 @@ if y == "ja":
             freitag = []
             samstag = []
             sonntag = []
-            
+            print("wollen sie einen eintrag hinzufügen?")
+            print("ja oder nein")
+            a = input()
+            if a == "ja":
+                print("wie lange soll der eintrag dauern?")
+                b = int(input())
+                print("wie viele einträge sollen hinzugefügt werden?")
+                c = int(input())
+                for i in range(c):
+                    print("wie lange soll der eintrag dauern?")
+                    b = int(input())
+                    print("wie viele einträge sollen hinzugefügt werden?")
+                    c = int(input())
     elif z == 2:
         print("txt")
     else:
