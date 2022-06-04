@@ -64,6 +64,13 @@ if y == "ja":
                     print(sonntag)
                 else:
                     print("dieser tag ist nicht vorhanden")
+            print("wollen sie den gesamten kalender in einer txt datei anzeigen?")
+            print("ja oder nein")
+            f = input()
+            if f == "ja":
+               datei = open("kalender.txt", "w")
+        datei.write(str(montag, dienstag, mittwoch, donnerstag, freitag, samstag, sonntag))
+        datei.close()
     elif z == 2:
         print("txt")
     else:
