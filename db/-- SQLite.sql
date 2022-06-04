@@ -1,2 +1,2 @@
 -- SQLite
-CREATE TABLE kalender (tag TEXT NOT NULL PRIMARY KEY, datum TEXT NOT NULL, termin TEXT NOT NULL, beschreibung TEXT NOT NULL);
+--CREATE TABLE kalender (tag TEXT NOT NULL PRIMARY KEY, datum TEXT NOT NULL, termin TEXT NOT NULL, beschreibung TEXT NOT NULL);
