@@ -9,7 +9,7 @@ print("ja oder nein")
 y = input()
 if y == "ja":
     print("okay")
-    print("wollen sie den kalender als pdf oder als txt anzeigen?") #pdf oder txt
+    print("wollen sie den kalender als array oder als irgendwas anzeigen?") #pdf oder txt
     z = int(input())    #pdf oder txt
     if z == 1:
         print("pdf")
