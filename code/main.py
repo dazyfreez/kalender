@@ -71,6 +71,8 @@ if y == "ja":
                datei = open("kalender.txt", "w")
         datei.write(str(montag, dienstag, mittwoch, donnerstag, freitag, samstag, sonntag))
         datei.close()
+        print("sie können die ergebnisse jetzt in einer txt datei anzeigen")
+        print("die txt heist kalender.txt")
     elif z == 2:
         print("txt")
     else:
