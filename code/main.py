@@ -74,6 +74,7 @@ if y == "ja":
         print("sie können die ergebnisse jetzt in einer txt datei anzeigen")
         print("die txt heist kalender.txt")
     elif z == 2:
-        print("txt")
+        print("sie haben die option datenbank gewählt")
+        
     else:
         print("fehler")
