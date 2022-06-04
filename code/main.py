@@ -19,7 +19,9 @@ if y == "ja":
         if w == 1:
             print("array")
             print("okay")
-            
+            print("die kalender werden in einzelnen arrays gespeichert")
+            print("es ist immer der jeweilige tag der name des arrays")
+            montag = []
     elif z == 2:
         print("txt")
     else:
